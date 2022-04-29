@@ -1,1 +1,4 @@
-// 浏览器判断
+function isIE(){}
+function isFirefox(){}
+function isChrome(){}
+function isSafari(){}

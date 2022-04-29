@@ -5,3 +5,6 @@ export function cached(fn: Function) {
     return hit || (cache[str] = fn(str))
   }
 }
+
+export const ua = navigator.userAgent.toLowerCase();
+export const testUa = (regexp: RegExp) => regexp.test(ua);
