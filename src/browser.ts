@@ -1,4 +1,4 @@
-function isIE(){}
-function isFirefox(){}
-function isChrome(){}
-function isSafari(){}
+function isIE() {}
+function isFirefox() {}
+function isChrome() {}
+function isSafari() {}

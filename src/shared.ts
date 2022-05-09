@@ -6,5 +6,10 @@ export function cached(fn: Function) {
   }
 }
 
-export const ua = navigator.userAgent.toLowerCase();
-export const testUa = (regexp: RegExp) => regexp.test(ua);
+export const ua = navigator.userAgent.toLowerCase()
+export const testUa = (regexp: RegExp) => regexp.test(ua)
+
+export const objProto = Object.prototype
+export const hasOwn = objProto.hasOwnProperty
+
+export const toString = Object.prototype.toString
